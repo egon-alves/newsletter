@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;700&display=swap');
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+  body {
+    background-color: black;
+    font-family: Spartan, Work Sans ;
+    font-family: 'League Spartan', sans-serif;
+  }
+header{ 
+  position: fixed;
+  left: 0;
+  background: var(--body-bg-color);
+  margin-top:75px;
+  margin-left: none;
+  margin-bottom: 75px;
+}
+.mg {border: #04D361 solid 1px;}
+.container { 
+  width:100vw ;
+  height:80vh;
+  background-image: url(/read_news.jpg);
+  min-height: 75%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.conteudo-1 { 
+  background-color: var(--body-bg-color);
+  width: 720px;
+  height: 100%;
+  
+}
+
+.logo {
+  width: 390px;
+  padding-top: 50px;
+  padding-left: 36px;
+}
+
+.txt {
+  
+  padding-left: 42px;
+  
+}
+.txt-1 {
+  color: var(--title-color);
+  font-size: 1.7em;
+  padding-top: 50px;
+  font-weight: 700;
+  
+}
+
+.txt-2 {
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 1.1em ;
+}
+
+.txt-3 { 
+  font-weight: 100;
+  color: var(--text-color);
+  font-size: 1.1em ;
+  word-wrap: break-word;
+}
+
+.text-4 {
+  font-size: 2em;
+  padding-top: 30px;
+  color: var(--bg-button-color);
+  
+}
+
+/* campo para editar o campo form */
+
+.formulario{
+  padding-top: 30px;
+  font-weight: 500;
+  color: var(--form-color);
+  font-size: 1.1em ;
+  word-wrap: break-word;
+}
+
+.forms {
+  width: 845px;
+  box-shadow: 5px 10px 18px black;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid: auto / auto auto auto;
+  
+  
+ }
+.forms1 {
+  width: 900px;
+  display: grid;
+  grid: auto auto auto auto;
+  padding-left: 42px;
+  
+  
+}
+
+.bd-verde {
+  border-left:var(--title-color) 10px solid ;
+   }
+
+
+.box-form {
+  padding-left: 20px;
+  font-size: 23px;
+  width: 760px;
+  height: 60px;
+}
+
+.btn {
+  background-color: var(--bg-button-color);
+ width: 80px;
+ height: 66px;
+ 
+ 
+ 
+}
+
+.img-btn {
+color: var(--text-color);
+font-size: 32px;
+text-align: center;
+
+}
+
+
